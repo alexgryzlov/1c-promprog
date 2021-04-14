@@ -12,3 +12,8 @@ add_executable(Main main.cpp)
 add_executable(MainLib main_lib.cpp)
 
 target_link_libraries(MainLib buffer)
+
+install(TARGETS buffer DESTINATION lib)
+install(FILES include/buffer.h DESTINATION include)
+install(TARGETS Main MainLib DESTINATION bin)
+
