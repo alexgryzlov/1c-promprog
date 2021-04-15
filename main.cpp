@@ -5,7 +5,7 @@
 using namespace cv;
 
 int main(int argc, char** argv) {
-        Mat m = imread("../img/map.png", IMREAD_GRAYSCALE);
+        Mat m = imread("../img/map.png", IMREAD_COLOR);
         Mat img = imread("../img/tanjiro.jpg", IMREAD_COLOR);
 
         for (int r = 0; r < img.rows; ++r) {
