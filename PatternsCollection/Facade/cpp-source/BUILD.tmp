@@ -1,0 +1,15 @@
+prefix = "//AbstractFactory/cpp-source/"
+cc_binary(
+    name = "facade",
+    srcs = glob([
+        "main.cpp",
+        "facades/*",
+    ]),
+    deps = [
+        "//AbstractFactory/cpp-source/rooms:isaac_rooms",
+        prefix + "serializers:serializers",
+        prefix + "factories:isaac_factories",
+        "//Builder/cpp-source:burger_shop",
+    ]
+)
+

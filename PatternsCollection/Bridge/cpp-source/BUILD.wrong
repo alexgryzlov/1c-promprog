@@ -1,0 +1,41 @@
+cc_library(
+    name = "axles",
+    srcs = [
+            "axles/Axle.cpp",
+            "axles/CarAxle.cpp",
+            "axles/PlaneAxle.cpp",
+    ],
+    hdrs = [
+            "include/Axle.h",
+            "include/CarAxle.h",
+            "include/PlaneAxle.h",
+    ],
+    copts = ["-IBridge/cpp-source/include"],
+)
+
+cc_library(
+    name = "wheels",
+    srcs = [
+            "wheels/Gamepad.cpp",
+            "wheels/PlaneWheel.cpp",
+            "wheels/SteeringWheel.cpp",
+    ],
+    hdrs = [
+            "include/Gamepad.h",
+            "include/PlaneWheel.h",
+            "include/SteeringWheel.h",
+    ],
+    copts = ["-IBridge/cpp-source/include"],
+    deps = [":axles"],
+)
+
+cc_binary(
+    name = "bridge",
+    srcs = [
+            "main.cpp",
+    ],
+    deps = [
+        ":axles", ":wheels"
+    ],   
+    copts = ["-IBridge/cpp-source/include"],
+)
