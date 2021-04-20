@@ -4,6 +4,9 @@ project(SimpleLibrary)
 
 include_directories(include)
 
+set(CMAKE_INSTALL_RPATH ${SimpleLibrary_SOURCE_DIR}/lib)
+set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
+set(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${SimpleLibrary_SOURCE_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${SimpleLibrary_SOURCE_DIR}/lib)
