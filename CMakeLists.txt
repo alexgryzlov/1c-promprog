@@ -4,10 +4,24 @@ find_package(OpenCV REQUIRED)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
-execute_process(COMMAND python3 generate_data.py WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/data)
+# execute_process(COMMAND python3 generate_data.py WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/data)
+add_custom_command(
+    OUTPUT data.h
+    COMMAND python3 generate_data.py
+    WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}/data"
+    DEPENDS "${CMAKE_SOURCE_DIR}/data/generate_data.py"
+)
+
+add_custom_target(
+    GenerateData
+    DEPENDS data.h
+)
+
 
 add_executable(not_preprocessed main.cpp)
 add_executable(preprocessed main_preprocessed.cpp)
+
+add_dependencies( preprocessed GenerateData )
 
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
