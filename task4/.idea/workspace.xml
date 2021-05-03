@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Testing" targetName="01-simple-library-test" />
+      <config projectName="Testing" targetName="03-weather" />
+      <config projectName="Testing" targetName="03-weather-bin" />
+      <config projectName="Testing" targetName="00-coverage-aplusb" />
+      <config projectName="Testing" targetName="02-tree-bin" />
+      <config projectName="Testing" targetName="03-coverage-weather" />
+      <config projectName="Testing" targetName="00-test-aplusb" />
+      <config projectName="Testing" targetName="coverage_report" />
+      <config projectName="Testing" targetName="00-coverage-aplusb_xml" />
+      <config projectName="Testing" targetName="03-weather-test" />
+      <config projectName="Testing" targetName="cpr_repo" />
+      <config projectName="Testing" targetName="02-coverage-tree_html" />
+      <config projectName="Testing" targetName="00-aplusb-bin" />
+      <config projectName="Testing" targetName="03-coverage-weather_html" />
+      <config projectName="Testing" targetName="googletest_repo" />
+      <config projectName="Testing" targetName="03-coverage-weather_xml" />
+      <config projectName="Testing" targetName="01-coverage-simple-library_xml" />
+      <config projectName="Testing" targetName="01-simple-library-bin" />
+      <config projectName="Testing" targetName="01-coverage-simple-library_html" />
+      <config projectName="Testing" targetName="01-coverage-simple-library" />
+      <config projectName="Testing" targetName="00-coverage-aplusb_html" />
+      <config projectName="Testing" targetName="01-simple-library" />
+      <config projectName="Testing" targetName="02-tree" />
+      <config projectName="Testing" targetName="02-tree-test" />
+      <config projectName="Testing" targetName="02-coverage-tree_xml" />
+      <config projectName="Testing" targetName="02-coverage-tree" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ec0d2f5-56bd-4da0-b07a-38a97b94d153" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/examples/03-main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/03-main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/01-simple-library/AddTestCase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/01-simple-library/AddTestCase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/01-simple-library/LeapTestCase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/01-simple-library/LeapTestCase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/01-simple-library/LeapTestCase.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/01-simple-library/LeapTestCase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02-tree/TreeTestCase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02-tree/TreeTestCase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02-tree/TreeTestCase.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02-tree/TreeTestCase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03-weather/WeatherMock.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/03-weather/WeatherMock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03-weather/WeatherTestCase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/03-weather/WeatherTestCase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03-weather/WeatherTestCase.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/03-weather/WeatherTestCase.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ryWcrAQlyJdi5jj4dSZpWNGJZe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Google Test.WeatherTestCase.test_general">
+    <configuration name="00-test-aplusb" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="00-test-aplusb" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="00-test-aplusb" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTestCase.test_filter_empty_nodes" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="02-tree-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="02-tree-test" TEST_CLASS="TreeTestCase" TEST_METHOD="test_filter_empty_nodes" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherTestCase.test_general" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="03-weather-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="03-weather-test" TEST_CLASS="WeatherTestCase" TEST_METHOD="test_general" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="00-aplusb-bin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="00-aplusb-bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="00-aplusb-bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="00-coverage-aplusb" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="00-coverage-aplusb" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="00-coverage-aplusb_html" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="00-coverage-aplusb_html" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="00-coverage-aplusb_xml" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="00-coverage-aplusb_xml" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-coverage-simple-library" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="01-coverage-simple-library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-coverage-simple-library_html" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="01-coverage-simple-library_html" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-coverage-simple-library_xml" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="01-coverage-simple-library_xml" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-simple-library-bin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="01-simple-library-bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="01-simple-library-bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-simple-library-test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="01-simple-library-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="01-simple-library-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-simple-library" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="01-simple-library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-coverage-tree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="02-coverage-tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="02-tree-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-coverage-tree_html" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="02-coverage-tree_html" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-coverage-tree_xml" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="02-coverage-tree_xml" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-tree-bin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="02-tree-bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="02-tree-bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-tree-test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="02-tree-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="02-tree-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-tree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="02-tree" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-coverage-weather" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="03-coverage-weather" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-coverage-weather_html" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="03-coverage-weather_html" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-coverage-weather_xml" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="03-coverage-weather_xml" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-weather-bin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="03-weather-bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="03-weather-bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-weather-test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="03-weather-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Testing" RUN_TARGET_NAME="03-weather-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-weather" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="03-weather" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="coverage_report" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="coverage_report" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cpr_repo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="cpr_repo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="googletest_repo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Testing" TARGET_NAME="googletest_repo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google Test.00-test-aplusb" />
+      <item itemvalue="Google Test.TreeTestCase.test_filter_empty_nodes" />
+      <item itemvalue="Google Test.WeatherTestCase.test_general" />
+      <item itemvalue="CMake Application.00-aplusb-bin" />
+      <item itemvalue="CMake Application.00-coverage-aplusb" />
+      <item itemvalue="CMake Application.00-coverage-aplusb_html" />
+      <item itemvalue="CMake Application.00-coverage-aplusb_xml" />
+      <item itemvalue="CMake Application.01-coverage-simple-library" />
+      <item itemvalue="CMake Application.01-coverage-simple-library_html" />
+      <item itemvalue="CMake Application.01-coverage-simple-library_xml" />
+      <item itemvalue="CMake Application.01-simple-library-bin" />
+      <item itemvalue="CMake Application.01-simple-library-test" />
+      <item itemvalue="CMake Application.01-simple-library" />
+      <item itemvalue="CMake Application.02-coverage-tree" />
+      <item itemvalue="CMake Application.02-coverage-tree_html" />
+      <item itemvalue="CMake Application.02-coverage-tree_xml" />
+      <item itemvalue="CMake Application.02-tree-bin" />
+      <item itemvalue="CMake Application.02-tree-test" />
+      <item itemvalue="CMake Application.02-tree" />
+      <item itemvalue="CMake Application.03-coverage-weather" />
+      <item itemvalue="CMake Application.03-coverage-weather_html" />
+      <item itemvalue="CMake Application.03-coverage-weather_xml" />
+      <item itemvalue="CMake Application.03-weather-bin" />
+      <item itemvalue="CMake Application.03-weather-test" />
+      <item itemvalue="CMake Application.03-weather" />
+      <item itemvalue="CMake Application.coverage_report" />
+      <item itemvalue="CMake Application.cpr_repo" />
+      <item itemvalue="CMake Application.googletest_repo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.WeatherTestCase.test_general" />
+        <item itemvalue="Google Test.TreeTestCase.test_filter_empty_nodes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ec0d2f5-56bd-4da0-b07a-38a97b94d153" name="Default Changelist" comment="" />
+      <created>1619948891788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619948891788</updated>
+      <workItem from="1619948892823" duration="1080000" />
+      <workItem from="1619950122299" duration="11695000" />
+      <workItem from="1619977049846" duration="11579000" />
+      <workItem from="1620049426835" duration="1385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="412" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619962465529">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="412" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1619962465529" />
+    <state x="680" y="196" key="FileChooserDialogImpl" timestamp="1619965936361">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="680" y="196" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1619965936361" />
+    <state width="1864" height="274" key="GridCell.Tab.0.bottom" timestamp="1619994937356">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1864" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1619994937356" />
+    <state width="1864" height="274" key="GridCell.Tab.0.center" timestamp="1619994937355">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1864" height="274" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1619994937355" />
+    <state width="1864" height="274" key="GridCell.Tab.0.left" timestamp="1619994937353">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1864" height="274" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1619994937353" />
+    <state width="1864" height="274" key="GridCell.Tab.0.right" timestamp="1619994937356">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1864" height="274" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1619994937356" />
+    <state width="1864" height="340" key="GridCell.Tab.1.bottom" timestamp="1619986713026">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1864" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1619986713026" />
+    <state width="1864" height="340" key="GridCell.Tab.1.center" timestamp="1619986713025">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1864" height="340" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1619986713025" />
+    <state width="1864" height="340" key="GridCell.Tab.1.left" timestamp="1619986713024">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1864" height="340" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1619986713024" />
+    <state width="1864" height="340" key="GridCell.Tab.1.right" timestamp="1619986713025">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1864" height="340" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1619986713025" />
+    <state x="376" y="43" key="SettingsEditor" timestamp="1619950643050">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="376" y="43" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1619950643050" />
+    <state x="586" y="192" width="1332" height="655" key="StructurePopup" timestamp="1619955809342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="586" y="192" width="1332" height="655" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1619955809342" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1619965132157">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1619965132157" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/02-tree/Tree.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
