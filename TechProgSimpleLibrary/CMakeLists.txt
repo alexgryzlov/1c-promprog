@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-if(NOT DEFINED TOOLCAHIN_PATH)
+if(NOT DEFINED TOOLCHAIN_PATH)
     message( FATAL_ERROR "Set path to toolchain." )
 
 set(CMAKE_CXX_COMPILER ${TOOLCHAIN_PATH}/bin/arm-linux-gnueabihf-g++)
