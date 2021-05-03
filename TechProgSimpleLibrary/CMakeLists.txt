@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.0)
-set(CMAKE_CXX_COMPILER /home/alex/gitrepos/1c-promprog/toolchain/bin/arm-linux-gnueabihf-g++)
+
+if(NOT DEFINED TOOLCAHIN_PATH)
+    message( FATAL_ERROR "Set path to toolchain." )
+
+set(CMAKE_CXX_COMPILER ${TOOLCHAIN_PATH}/bin/arm-linux-gnueabihf-g++)
 project(SimpleLibrary)
 
 include_directories(include)
